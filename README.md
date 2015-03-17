@@ -1,6 +1,6 @@
 # Assembler
 
-This is an implementation of a twoassembler that translates a subset of the MIPS instruction set to machine code.
+This is an implementation of a two-passassembler that translates a subset of the MIPS instruction set to machine code.
 
 At a high level, the functionality of our assembler can be divided as follows:
 
