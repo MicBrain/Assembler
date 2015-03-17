@@ -19,5 +19,3 @@ At a high level, the functionality of our assembler can be divided as follows:
 
 
 
-
-
