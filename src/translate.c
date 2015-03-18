@@ -236,10 +236,6 @@ int write_mem(uint8_t opcode, FILE* output, char** args, size_t num_args) {
   }
   write_inst_hex(output, instruction);
   return 0;
-
-  // uint32_t instruction = (opcode<<26) | (rs<<21) | (rt<<16) | immediate;
-  // write_inst_hex(output, instruction);
-  // return 0;
 }
 
 /* A helper function for writing Branch on Equal and Branch onNot Equal
