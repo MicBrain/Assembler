@@ -49,7 +49,7 @@ SymbolTable* create_table(int mode) {
     }
     myTable -> len = 0;
     myTable -> mode = mode;
-    myTable -> cap = 5; //MAY NEED TO CHANGE THIS NUMBER
+    myTable -> cap = 5;
     myTable -> tbl = malloc(100 * sizeof(Symbol));
     if(!(myTable -> tbl)) {
       allocation_failed();
