@@ -117,7 +117,6 @@ int write_rtype(uint8_t funct, FILE* output, char** args, size_t num_args) {
 /* A helper function for writing shift instructions. You should use 
    translate_num() to parse numerical arguments. translate_num() is defined
    in translate_utils.h.
-
  */
 int write_shift(uint8_t funct, FILE* output, char** args, size_t num_args) {
   if (num_args != 3)
