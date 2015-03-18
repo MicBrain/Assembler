@@ -100,9 +100,6 @@ int translate_inst(FILE* output, const char* name, char** args, size_t num_args,
 /* A helper function for writing most R-type instructions. This uses
    translate_reg() to parse registers and write_inst_hex() to write to 
    OUTPUT. Both are defined in translate_utils.h.
-
-   This function is INCOMPLETE. Complete the implementation below. You will
-   find bitwise operations to be the cleanest way to complete this function.
  */
 int write_rtype(uint8_t funct, FILE* output, char** args, size_t num_args) {
   if (num_args != 3)
