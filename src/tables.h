@@ -30,7 +30,6 @@ void name_already_exists(const char* name);
 
 void write_symbol(FILE* output, uint32_t addr, const char* name);
 
-/* IMPLEMENT ME - see documentation in tables.c */
 SymbolTable* create_table();
 
 /* IMPLEMENT ME - see documentation in tables.c */
