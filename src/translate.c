@@ -46,7 +46,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
           long int topBits = immediate >> 16; 
           fprintf(output, "%s %s %ld\n",loadUpper, args[0], topBits);
           long int lowBits = immediate & 0xffff;
-
           fprintf(output, "%s %s %s %ld\n", loadLower, args[0], args[0], lowBits);
         }
         return 2;
