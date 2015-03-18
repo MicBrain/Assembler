@@ -77,7 +77,6 @@ void free_table(SymbolTable* table) {
    return -1. If the table's mode is SYMTBL_UNIQUE_NAME and NAME already exists 
    in the table, it calls name_already_exists() and return -1. If memory
    allocation fails, it calls allocation_failed(). 
-
    Otherwise, it stores the symbol name and address and return 0.
  */
 int add_to_table(SymbolTable* table, const char* name, uint32_t addr) {
