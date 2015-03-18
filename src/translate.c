@@ -73,8 +73,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
    arguments are valid. If an instruction is invalid, you should not write 
    anything to OUTPUT but simply return -1. MARS may be a useful resource for
    this step.
-
-
    Returns 0 on success and -1 on error. 
  */
 int translate_inst(FILE* output, const char* name, char** args, size_t num_args, uint32_t addr,
