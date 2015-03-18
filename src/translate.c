@@ -121,8 +121,6 @@ int write_rtype(uint8_t funct, FILE* output, char** args, size_t num_args) {
    translate_num() to parse numerical arguments. translate_num() is defined
    in translate_utils.h.
 
-   This function is INCOMPLETE. Complete the implementation below. You will
-   find bitwise operations to be the cleanest way to complete this function.
  */
 int write_shift(uint8_t funct, FILE* output, char** args, size_t num_args) {
   if (num_args != 3)
