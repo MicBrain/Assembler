@@ -80,12 +80,10 @@ void free_table(SymbolTable* table) {
    Otherwise, it stores the symbol name and address and return 0.
  */
 int add_to_table(SymbolTable* table, const char* name, uint32_t addr) {
-    // strcpy(nameHolder, name);
     if(addr % 4 != 0) {
       addr_alignment_incorrect();
       return -1;
     }
-    // Symbol* ptHead = table -> tbl;
     char newName[strlen(name) + 1];
     strcpy(newName, name);
     if ( (table -> mode) == SYMTBL_UNIQUE_NAME){
