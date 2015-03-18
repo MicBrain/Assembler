@@ -70,7 +70,7 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
    relocation table (RELTBL), and the fields for that symbol should be set to
    all zeros. 
 
-   You must perform error checking on all instructions and make sure that their
+   This performs error checking on all instructions and make sure that their
    arguments are valid. If an instruction is invalid, you should not write 
    anything to OUTPUT but simply return -1. MARS may be a useful resource for
    this step.
