@@ -8,12 +8,11 @@
 
 /* Writes instructions during the assembler's first pass to OUTPUT.
    Translates the li and blt pseudoinstructions without any side effects.
-
    NAME is the name of the instruction, ARGS is an array of the arguments, and
    NUM_ARGS specifies the number of items in ARGS.
 
    Error checking for regular instructions are done in pass two. However, for
-   pseudoinstructions, you must make sure that ARGS contains the correct number
+   pseudoinstructions, it makes sure that ARGS contains the correct number
    of arguments. You do NOT need to check whether the registers / label are 
    valid, since that will be checked in part two.
 
