@@ -25,8 +25,6 @@
    larger than the largest 32 bit number to be loaded with li. You should follow
    the above rules if MARS behaves differently.
 
-   Use fprintf() to write. If writing multiple instructions, make sure that 
-   each instruction is on a different line.
 
    Returns the number of instructions written (so 0 if there were any errors).
  */
