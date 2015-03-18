@@ -12,8 +12,6 @@ int write_rtype(uint8_t funct, FILE* output, char** args, size_t num_args);
 
 int write_shift(uint8_t funct, FILE* output, char** args, size_t num_args);
 
-/* SOLUTION CODE BELOW */
-
 int write_jr(uint8_t funct, FILE* output, char** args, size_t num_args);
 
 int write_addiu(uint8_t opcode, FILE* output, char** args, size_t num_args);
