@@ -31,7 +31,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
         if(num_args != 2) {
           return 0;
         }
-
         long int immediate;
         int result = translate_num(&immediate, args[1], -2147483648, 4294967295);
         if (result == -1)
