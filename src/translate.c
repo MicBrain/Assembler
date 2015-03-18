@@ -13,7 +13,7 @@
 
    Error checking for regular instructions are done in pass two. However, for
    pseudoinstructions, it makes sure that ARGS contains the correct number
-   of arguments. You do NOT need to check whether the registers / label are 
+   of arguments. This does not check whether the registers / label are 
    valid, since that will be checked in part two.
 
    Also for li:
