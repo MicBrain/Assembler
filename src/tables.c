@@ -53,7 +53,6 @@ SymbolTable* create_table(int mode) {
     myTable -> tbl = malloc(100 * sizeof(Symbol));
     if(!(myTable -> tbl)) {
       allocation_failed();
-      //WHAT SHOULD I RETURN IN THIS CASE
     }
     return myTable;
 }
