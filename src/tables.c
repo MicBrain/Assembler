@@ -117,7 +117,6 @@ int add_to_table(SymbolTable* table, const char* name, uint32_t addr) {
    NAME is not present in TABLE, return -1.
  */
 int64_t get_addr_for_symbol(SymbolTable* table, const char* name) {
-  // fprintf(stdout, "%s\n", "GOT HERE");
     for(int i = 0; i< table -> len; i++) {
       if(strcmp(name, table->tbl[i].name) == 0) {
         return table->tbl[i].addr; //IS IT A PROBLEM THAT ADDR IS A uint32_t and this func expects a int64_t
