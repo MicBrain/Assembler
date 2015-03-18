@@ -46,7 +46,6 @@ SymbolTable* create_table(int mode) {
     SymbolTable* myTable = (SymbolTable*)malloc(sizeof(SymbolTable)); //DO WE NEED TO USE CALLOC HERE ? OR SHOULD WE?
     if(!myTable) {
       allocation_failed();
-      //return 1; //NOT SURE IF THIS IS NECESSARY
     }
     myTable -> len = 0;
     myTable -> mode = mode;
