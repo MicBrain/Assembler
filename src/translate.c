@@ -6,10 +6,7 @@
 #include "translate_utils.h"
 #include "translate.h"
 
-/* Writes instructions during the assembler's first pass to OUTPUT. The case
-   for general instructions has already been completed, but you need to write
-   code to translate the li and blt pseudoinstructions. Your pseudoinstruction 
-   expansions should not have any side effects. Translates the li and blit
+/* Writes instructions during the assembler's first pass to OUTPUT. Translates the li and blit
    pseudoinstructions without any side effects.
 
    NAME is the name of the instruction, ARGS is an array of the arguments, and
