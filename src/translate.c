@@ -74,8 +74,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
    anything to OUTPUT but simply return -1. MARS may be a useful resource for
    this step.
 
-   Note the use of helper functions. Consider writing your own! If the function
-   definition comes afterwards, you must declare it first (see translate.h).
 
    Returns 0 on success and -1 on error. 
  */
