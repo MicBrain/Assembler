@@ -19,10 +19,8 @@
     - if the immediate can fit in the imm field of an addiu instruction, then
       li expands into a single addiu instruction. Otherwise, it expand into 
         a lui-ori pair.
-
    And for blt:
-    - your expansion should use the fewest number of instructions possible.
-
+    - this expansion uses the fewest number of instructions possible.
    MARS has slightly different translation rules for li, and it allows numbers
    larger than the largest 32 bit number to be loaded with li. You should follow
    the above rules if MARS behaves differently.
