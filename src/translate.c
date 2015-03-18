@@ -65,7 +65,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
 /* Writes the instruction in hexadecimal format to OUTPUT during pass #2.
    NAME is the name of the instruction, ARGS is an array of the arguments, and
    NUM_ARGS specifies the number of items in ARGS. 
-
    The symbol table (SYMTBL) is given for any symbols that need to be resolved
    at this step. If a symbol should be relocated, it should be added to the
    relocation table (RELTBL), and the fields for that symbol should be set to
