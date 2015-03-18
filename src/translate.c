@@ -266,4 +266,3 @@ int write_jump(uint8_t opcode, FILE* output, char** args, size_t num_args,
 
   return 0;
 }
-
