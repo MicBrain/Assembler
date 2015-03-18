@@ -15,8 +15,7 @@
    of arguments. This does not check whether the registers / label are 
    valid, since that will be checked in part two.
    Also for li:
-    - make sure that the number is representable by 32 bits. (Hint: the number 
-        can be both signed or unsigned).
+    - the number is representable by 32 bits.
     - if the immediate can fit in the imm field of an addiu instruction, then
         expand li into a single addiu instruction. Otherwise, expand it into 
         a lui-ori pair.
