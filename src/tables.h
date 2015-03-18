@@ -32,7 +32,6 @@ void write_symbol(FILE* output, uint32_t addr, const char* name);
 
 SymbolTable* create_table();
 
-/* IMPLEMENT ME - see documentation in tables.c */
 void free_table(SymbolTable* table);
 
 /* IMPLEMENT ME - see documentation in tables.c */
