@@ -73,12 +73,12 @@ void free_table(SymbolTable* table) {
    Note that NAME may point to a temporary array, so it is not safe to simply
    store the NAME pointer. It stores a copy of the given string.
 
-   If ADDR is not word-aligned, you should call addr_alignment_incorrect() and
+   If ADDR is not word-aligned, it calls addr_alignment_incorrect() and
    return -1. If the table's mode is SYMTBL_UNIQUE_NAME and NAME already exists 
-   in the table, you should call name_already_exists() and return -1. If memory
-   allocation fails, you should call allocation_failed(). 
+   in the table, it calls name_already_exists() and return -1. If memory
+   allocation fails, it calls allocation_failed(). 
 
-   Otherwise, you should store the symbol name and address and return 0.
+   Otherwise, it stores the symbol name and address and return 0.
  */
 int add_to_table(SymbolTable* table, const char* name, uint32_t addr) {
     // char* nameHolder;
