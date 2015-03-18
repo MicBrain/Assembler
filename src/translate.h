@@ -5,7 +5,6 @@
 
 unsigned write_pass_one(FILE* output, const char* name, char** args, int num_args);
 
-/* IMPLEMENT ME - see documentation in translate.c */
 int translate_inst(FILE* output, const char* name, char** args, size_t num_args, 
     uint32_t addr, SymbolTable* symtbl, SymbolTable* reltbl);
 
