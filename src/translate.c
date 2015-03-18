@@ -97,7 +97,7 @@ int translate_inst(FILE* output, const char* name, char** args, size_t num_args,
     else if (strcmp(name, "jal") == 0)  return write_jump(0x03, output, args, num_args, addr, reltbl);
     else                                 return -1;
 }
-/* A helper function for writing most R-type instructions. You should use
+/* A helper function for writing most R-type instructions. This uses
    translate_reg() to parse registers and write_inst_hex() to write to 
    OUTPUT. Both are defined in translate_utils.h.
 
