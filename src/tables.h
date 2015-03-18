@@ -11,7 +11,6 @@ extern const int SYMTBL_UNIQUE_NAME;
    must build this data structure yourself. 
  */
 
-/* SOLUTION CODE BELOW */
 typedef struct {
     char *name;
     uint32_t addr;
