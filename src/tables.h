@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 extern const int SYMTBL_NON_UNIQUE;
-extern const int SYMTBL_UNIQUE_NAME;     // duplicate names not allowed
+extern const int SYMTBL_UNIQUE_NAME;
 
 /* Complete the following definition of SymbolTable and implement the following
    functions. You are free to declare additional structs or functions, but you
