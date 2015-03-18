@@ -3,7 +3,7 @@
 
 #include <stdint.h>
 
-extern const int SYMTBL_NON_UNIQUE;      // allows duplicate names in table
+extern const int SYMTBL_NON_UNIQUE;
 extern const int SYMTBL_UNIQUE_NAME;     // duplicate names not allowed
 
 /* Complete the following definition of SymbolTable and implement the following
