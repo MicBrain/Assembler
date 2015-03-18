@@ -80,7 +80,6 @@ void free_table(SymbolTable* table) {
    Otherwise, it stores the symbol name and address and return 0.
  */
 int add_to_table(SymbolTable* table, const char* name, uint32_t addr) {
-    // char* nameHolder;
     // strcpy(nameHolder, name);
     // printf("%s%s\n","OOOOOOOOOGGGGGGG NAME IS: ", name );
     if(addr % 4 != 0) {
