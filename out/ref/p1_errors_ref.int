@@ -1,0 +1,13 @@
+addu $v0 $a0 $a1
+or $a2 $a3 $t0
+jr $t1
+slt $t2 $t2 $s0
+sltu $s1 $s2 $s3
+lui $t3 123
+lb $t0 0 $s0
+jal label
+l2: addiu $t3 $t1
+ori $t3 $t2 0xABC
+addiu $t3 $t5 3
+ori $t1 $t0 0xFFFFFFFF
+bne $t0 $t1 not_found

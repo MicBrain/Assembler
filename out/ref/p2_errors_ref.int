@@ -1,0 +1,5 @@
+addiu $t0 $t3 $t3
+jal
+ori $t2 $t5 0xAB
+bne $t0 $t1 not_found
+addiu $t3 $t5 0x80808080
