@@ -70,9 +70,8 @@ void free_table(SymbolTable* table) {
 /* Adds a new symbol and its address to the SymbolTable pointed to by TABLE. 
    ADDR is given as the byte offset from the first instruction. The SymbolTable
    must be able to resize itself as more elements are added. 
-
    Note that NAME may point to a temporary array, so it is not safe to simply
-   store the NAME pointer. You must store a copy of the given string.
+   store the NAME pointer. It stores a copy of the given string.
 
    If ADDR is not word-aligned, you should call addr_alignment_incorrect() and
    return -1. If the table's mode is SYMTBL_UNIQUE_NAME and NAME already exists 
