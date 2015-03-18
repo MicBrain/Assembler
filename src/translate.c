@@ -10,7 +10,6 @@
    Translates the li and blt pseudoinstructions without any side effects.
    NAME is the name of the instruction, ARGS is an array of the arguments, and
    NUM_ARGS specifies the number of items in ARGS.
-
    Error checking for regular instructions are done in pass two. However, for
    pseudoinstructions, it makes sure that ARGS contains the correct number
    of arguments. This does not check whether the registers / label are 
