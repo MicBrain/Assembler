@@ -3,7 +3,6 @@
 
 #include <stdint.h>
 
-/* IMPLEMENT ME - see documentation in translate.c */
 unsigned write_pass_one(FILE* output, const char* name, char** args, int num_args);
 
 /* IMPLEMENT ME - see documentation in translate.c */
