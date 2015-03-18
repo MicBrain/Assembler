@@ -69,7 +69,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
    at this step. If a symbol should be relocated, it should be added to the
    relocation table (RELTBL), and the fields for that symbol should be set to
    all zeros. 
-
    This performs error checking on all instructions and make sure that their
    arguments are valid. If an instruction is invalid, you should not write 
    anything to OUTPUT but simply return -1. MARS may be a useful resource for
