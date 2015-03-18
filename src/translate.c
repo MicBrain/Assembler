@@ -24,8 +24,6 @@
    MARS has slightly different translation rules for li, and it allows numbers
    larger than the largest 32 bit number to be loaded with li. You should follow
    the above rules if MARS behaves differently.
-
-
    Returns the number of instructions written (so 0 if there were any errors).
  */
 unsigned write_pass_one(FILE* output, const char* name, char** args, int num_args) {
