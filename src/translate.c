@@ -93,7 +93,6 @@ int translate_inst(FILE* output, const char* name, char** args, size_t num_args,
     else if (strcmp(name, "lw") == 0)    return write_mem (0x23, output, args, num_args);
     else if (strcmp(name, "sb") == 0)    return write_mem (0x28, output, args, num_args);
     else if (strcmp(name, "sw") == 0)    return write_mem (0x2b, output, args, num_args);
-
     else if (strcmp(name, "beq") == 0)    return write_branch(0x4, output, args, num_args, addr, symtbl);
     else if (strcmp(name, "bne") == 0)    return write_branch(0x5, output, args, num_args, addr, symtbl);
 
