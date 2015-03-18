@@ -6,8 +6,8 @@
 #include "translate_utils.h"
 #include "translate.h"
 
-/* Writes instructions during the assembler's first pass to OUTPUT. Translates the li and blit
-   pseudoinstructions without any side effects.
+/* Writes instructions during the assembler's first pass to OUTPUT.
+   Translates the li and blt pseudoinstructions without any side effects.
 
    NAME is the name of the instruction, ARGS is an array of the arguments, and
    NUM_ARGS specifies the number of items in ARGS.
