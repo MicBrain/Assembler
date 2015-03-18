@@ -82,7 +82,6 @@ int translate_inst(FILE* output, const char* name, char** args, size_t num_args,
     else if (strcmp(name, "slt") == 0)   return write_rtype (0x2a, output, args, num_args);
     else if (strcmp(name, "sltu") == 0)  return write_rtype (0x2b, output, args, num_args);
     else if (strcmp(name, "sll") == 0)   return write_shift (0x00, output, args, num_args);
-
     else if (strcmp(name, "jr") == 0)     return write_jr (0x08, output, args, num_args);
     else if (strcmp(name, "addiu") == 0)  return write_addiu (0x9, output, args, num_args);
 
