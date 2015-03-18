@@ -17,7 +17,7 @@
    Also for li:
     - the number is representable by 32 bits.
     - if the immediate can fit in the imm field of an addiu instruction, then
-        expand li into a single addiu instruction. Otherwise, expand it into 
+      li expands into a single addiu instruction. Otherwise, it expand into 
         a lui-ori pair.
 
    And for blt:
