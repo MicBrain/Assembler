@@ -8,8 +8,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
 int translate_inst(FILE* output, const char* name, char** args, size_t num_args, 
     uint32_t addr, SymbolTable* symtbl, SymbolTable* reltbl);
 
-/* Declaring helper functions: */
-
 int write_rtype(uint8_t funct, FILE* output, char** args, size_t num_args);
 
 int write_shift(uint8_t funct, FILE* output, char** args, size_t num_args);
