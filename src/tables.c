@@ -81,7 +81,6 @@ void free_table(SymbolTable* table) {
  */
 int add_to_table(SymbolTable* table, const char* name, uint32_t addr) {
     // strcpy(nameHolder, name);
-    // printf("%s%s\n","OOOOOOOOOGGGGGGG NAME IS: ", name );
     if(addr % 4 != 0) {
       addr_alignment_incorrect();
       return -1;
