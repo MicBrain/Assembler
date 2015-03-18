@@ -49,7 +49,6 @@ unsigned write_pass_one(FILE* output, const char* name, char** args, int num_arg
           fprintf(output, "%s %s %s %ld\n", loadLower, args[0], args[0], lowBits);
         }
         return 2;
-
     } else if (strcmp(name, "blt") == 0) {
         if(num_args != 3) {
           return 0;
