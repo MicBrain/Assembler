@@ -87,7 +87,6 @@ int translate_inst(FILE* output, const char* name, char** args, size_t num_args,
 
     else if (strcmp(name, "ori") == 0)    return write_ori (0xd, output, args, num_args);
     else if (strcmp(name, "lui") == 0)    return write_lui (0xf, output, args, num_args);
-
     else if (strcmp(name, "lb") == 0)    return write_mem (0x20, output, args, num_args);
     else if (strcmp(name, "lbu") == 0)   return write_mem (0x24, output, args, num_args);
     else if (strcmp(name, "lw") == 0)    return write_mem (0x23, output, args, num_args);
