@@ -6,10 +6,7 @@
 extern const int SYMTBL_NON_UNIQUE;
 extern const int SYMTBL_UNIQUE_NAME;
 
-/* Complete the following definition of SymbolTable and implement the following
-   functions. You are free to declare additional structs or functions, but you
-   must build this data structure yourself. 
- */
+/* Signature of the SymbolTable data structure. */
 
 typedef struct {
     char *name;
