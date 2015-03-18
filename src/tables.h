@@ -34,7 +34,6 @@ SymbolTable* create_table();
 
 void free_table(SymbolTable* table);
 
-/* IMPLEMENT ME - see documentation in tables.c */
 int add_to_table(SymbolTable* table, const char* name, uint32_t addr);
 
 /* IMPLEMENT ME - see documentation in tables.c */
