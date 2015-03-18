@@ -37,7 +37,7 @@ void write_symbol(FILE* output, uint32_t addr, const char* name) {
 
 /* Creates a new SymbolTable containg 0 elements and returns a pointer to that
    table. Multiple SymbolTables may exist at the same time. 
-   If memory allocation fails, you should call allocation_failed(). 
+   If memory allocation fails, it calls allocation_failed(). 
    Mode will be either SYMTBL_NON_UNIQUE or SYMTBL_UNIQUE_NAME. You will need
    to store this value for use during add_to_table().
  */
