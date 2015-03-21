@@ -41,7 +41,6 @@ int is_valid_label(const char* str) {
 /* Translate the input string into a signed number. The number is then 
    checked to be within the correct range (note bounds are INCLUSIVE)
    ie. NUM is valid if LOWER_BOUND <= NUM <= UPPER_BOUND. 
-
    The input may be in either positive or negative, and be in either
    decimal or hexadecimal format. It is also possible that the input is not
    a valid number. Fortunately, the library function strtol() can take 
