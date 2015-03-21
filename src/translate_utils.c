@@ -44,7 +44,6 @@ int is_valid_label(const char* str) {
    The input may be in either positive or negative, and be in either
    decimal or hexadecimal format. It is also possible that the input is not
    a valid number.  
-
    This stores the result into the location that OUTPUT points to. The 
    function returns 0 if the conversion proceeded without errors, or -1 if an 
    error occurred.
