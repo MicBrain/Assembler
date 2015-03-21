@@ -21,7 +21,6 @@ int is_valid_label(const char* str);
 int translate_num(long int* output, const char* str, long int lower_bound, 
 	long int upper_bound);
 
-/* IMPLEMENT ME - see documentation in translate_utils.c */
 int translate_reg(const char* str);
 
 #endif
