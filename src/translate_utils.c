@@ -71,7 +71,6 @@ int translate_num(long int* output, const char* str, long int lower_bound,
     }
   }
 
-
 /* Translates the register name to the corresponding register number. Please
    see the MIPS Green Sheet for information about register numbers.
 
